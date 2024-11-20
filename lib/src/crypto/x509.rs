@@ -67,7 +67,7 @@ impl From<(ApplicationDescription, Option<Vec<String>>)> for X509Data {
             country: DEFAULT_COUNTRY.to_string(),
             state: DEFAULT_STATE.to_string(),
             alt_host_names,
-            certificate_duration_days: 365,
+            certificate_duration_days: 3650,
         }
     }
 }
